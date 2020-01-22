@@ -1,0 +1,1 @@
+cmd_/home/ebots/Desktop/dmatest/dmatest.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/ebots/Desktop/dmatest/dmatest.ko /home/ebots/Desktop/dmatest/dmatest.o /home/ebots/Desktop/dmatest/dmatest.mod.o ;  true
